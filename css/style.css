@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background-color: #4d4749; }
+
+.column {
+  min-width: 300px;
+  width: 32%;
+  float: left;
+  min-height: 553px;
+  margin: 5px;
+  background-color: #cef4ff;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: 4px 4px 2px #929292; }
+
+.column-container {
+  margin-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.ui-sortable {
+  min-height: 80px; }
+
+ul.card-list.ui-sortable {
+  padding: 0; }
+
+.card {
+  background-color: #47c1f4;
+  list-style-type: none;
+  margin: 0 10px 10px 10px;
+  border-top: 20px solid #39a2cc;
+  min-height: 150px;
+  border-bottom-left-radius: 50px;
+  padding: 0 10px 10px 10px;
+  box-shadow: 0 4px 2px #929292; }
+
+.board {
+  border: 10px ridge #e6e6e6;
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px 5px 5px 5px;
+  background-color: #f5f5f5;
+  text-align: center; }
+  .board h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4d4749; }
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff; }
+  button:hover {
+    border: none;
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px); }
+
+.create-column {
+  background-color: #00ae68;
+  border-bottom: 4px solid #007144; }
+  .create-column:hover {
+    border-bottom: 4px solid #f5f5f5; }
+
+.column-title {
+  text-transform: capitalize; }
+
+.column-add-card {
+  background-color: #5dc8cd;
+  border-bottom: 4px solid #1e8185;
+  margin-left: 5px; }
+  .column-add-card:hover {
+    border-bottom: 4px solid #cef4ff; }
+
+.btn-delete {
+  background-color: #e74c3c;
+  border-bottom: 4px solid #c0211d;
+  padding: 10px 14px; }
+  .btn-delete:hover {
+    border-bottom: 4px solid #cef4ff; }
+
+li > .btn-delete {
+  margin: 10px;
+  float: right; }
+  li > .btn-delete:hover {
+    border-bottom: 4px solid #47c1f4; }
+
+.card-placeholder {
+  background-color: #e6e6e6;
+  margin: 0 10px 10px 10px;
+  border-top: 20px solid #c1c1c1;
+  min-height: 150px;
+  border-bottom-left-radius: 50px;
+  padding: 0 10px 10px 10px; }
+
+@media (max-width: 960px) {
+  .column {
+    min-width: 360px;
+    width: 48%; } }
+@media (max-width: 788px) {
+  .column {
+    min-width: 300px;
+    width: 80%; } }
+@media (max-width: 355px) {
+  .column {
+    min-width: 230px;
+    width: 100%; } }
