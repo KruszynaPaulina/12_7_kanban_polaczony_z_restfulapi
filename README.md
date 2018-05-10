@@ -1,6 +1,6 @@
-# 12_7_kanban_polaczony_z_restfulapi
+# Kanban_polaczony_z_restfulapi
 
-https://kruszynapaulina.github.io/12_7_kanban_polaczony_z_restfulapi
+https://kruszynapaulina.github.io/Kanban_polaczony_z_restfulapi
  
 Zadanie wykonane w ramamch bootcampu Kodilla - "Frontend developer" - I część "Web developer".
  
